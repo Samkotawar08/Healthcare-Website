@@ -357,5 +357,493 @@
         }
     </script>
 
+    .navigation{
+    width: 100%;
+    height: 100px;
+  
+}
+.nav-wrapper{
+    height: 100%;
+    width:100%;
+}
+.logo{
+    width:30%;
+}
+.hamburger-btn{
+    width:20%;
+}
+.list{
+    display: none;
+}
+.sidebar{
+    position:fixed;
+    top:0;
+    right:0;
+    height:100vh;
+    width:200px;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px); */
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    /* padding:0 100px; */
+    line-height: 3;
+}
+.sidebar a:hover{
+    color:grey;
+}
+.sidebar li{
+    width:70%;
+
+}
+
+.list{
+    list-style-type: none;
+    width: 800px;
+}
+.list li a{
+    font-size: 20px;
+    color: black;
+}
+.list-content a{
+    color: black;
+    
+}
+/* second section */
+
+.hero-wrapper{
+    height: 100%;
+    width: 100%;
+   }
+.hero-section{
+    width:100%;
+    height:413px;
+    background-image: url(../images/background/banner2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.content{
+    width:100%;
+    height:300px;
+    padding-top: 100px;
+    padding-left: 28px;
+}
+.health{
+    font-size: 40px;
+}
+.for{
+    font-size: 34px;
+}
+.service:hover{
+    color:white;
+    background-color: #009DFF;
+    border: 1px solid #009DFF;
+}
+.para{
+    color:grey;
+    font-size: 17px;
+}
+.button{
+    color:white;
+    background-color: #009DFF;
+    border: 1px solid #009DFF;
+    padding-top:5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+ /* fourth section */
+.img-one{
+    margin-top:60px;
+    width:100%;
+    height:500px;
+}
+.fourth-div{
+    padding-left:30px;
+    padding-right: 30px;
+}
+.welcome{
+    margin-top:30px;
+}
+.care h1{
+    font-size: 32px;
+}
+.care p{
+    color:grey;
+}
+.points{
+    padding-left:0px;
+    letter-spacing: 1;
+    color:rgba(113, 112, 112, 0.989);
+}
+.points .bi{
+    color: #009DFF;
+}
+.learn button{
+    color:#009DFF;
+    border: 0.5px solid #009DFF;
+    background: white;
+    padding:7px 30px 3px;
+}
+/* fifth section */
+.fifth-div{
+    margin-top:50px;
+}
+.dept{
+    width:100%;
+    height:3200px;
+    background: #e1edf6;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.dept h1{
+    padding-left:30px;
+    font-size: 34px;
+}
+.dept p{
+    color:grey;
+    padding-left: 10px;
+    line-height: 28px;
+    font-size: 16px;
+    margin-top:5px;
+}
+.dept-one img{
+    width:100%;
+    height:290px;
+}
+.white{
+    background-color: #fff;
+    padding: 22px 30px 24px 30px;
+    height:160px;
+    width:100%;
+   
+}
+.white span{
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
+.white p{
+    padding-left: 0;
+    font-size: 17px;
+    font-weight: 300;
+   margin-top:5px;
+  
+}
+
+.white a{
+    text-decoration: none;
+    color:#009DFF;
+    font-size:18px;
+    
+}
+/* sixth section */
+.donec{
+    background: linear-gradient(rgba(24, 24, 24, 0.3),rgba(31, 29, 29, 0.3)),url(../images/background/1\ \(1\).png);
+    width:100%;
+    height:700px;
+    padding: 180px 0;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.donec-p{
+    padding-left:10px;
+    color:white;
+    font-size:21px;
+ }
+.quote .bi{
+    color:white;
+    font-size:50px;
+    font-weight: 500;
+}
+.donec-p span{
+    font-size: 15px;
+    font-weight: 500;
+}
+/* seventh section */
+.excel{
+padding-left:5px;
+padding-left: 25px;
+padding-top:10px;
+background: #e1edf6;
+height:150px;
+}
+.excel li{
+    padding-top:10px;
+}
+
+/* eight section */
+
+.eight-div p{
+    color:grey;
+    line-height:28px;
+}
+.eight-div img{
+    width:100%;
+    height:350px;
+}
+
+
+
+/* nineth section */
+.nine{
+    width:100%;
+    margin-top:200px;
+}
+.nine-div{
+    width:100%;
+}
+.doc-one{
+    width:100%;
+}
+.row img{
+    width:90%;
+    height:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.doc-one h4{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.doc-one span{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+/* .note:hover{
+    color:white;
+    background-color: #009DFF;
+    border: 1px solid #009DFF;
+    height:90px;
+
+} */
+
+
+
+
+/* tenth section */
+.tenth{
+    margin-top:60px;
+}
+.boy{
+    background: linear-gradient(rgba(13, 111, 223, 0.3),rgba(19, 128, 223, 0.3)),url(../images/background/emergency-1.png);
+    /* background-image: url(../images/background/emergency-1.png); */
+    width:100%;
+    height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.boy h2{
+    color:white;
+    padding-left: 30px;
+    }
+.boy span{
+        color:white;
+        padding-left: 30px;
+        }
+.bbtn{
+    color:white;
+    display: inline-block;
+    padding: 9px 24px;
+    border: 0;
+    border: 1px solid #ffff;
+    width:40%;
+    border-radius: 50px;
+}
+.boy-btn{
+    padding-left: 30px; 
+}
+.girl{
+    background: linear-gradient(rgba(187, 193, 199, 0.3),rgba(139, 143, 146, 0.3)),url(../images/background/emergency-2.png);
+    /* background-image: url(../images/background/emergency-1.png); */
+    width:100%;
+    height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.girl h2{
+    color:white;
+    padding-left: 30px;
+    }
+.girl span{
+        color:white;
+        padding-left: 30px;
+        }
+.bbtn{
+    color:white;
+    display: inline-block;
+    padding: 9px 24px;
+    border: 0;
+    border: 1px solid #ffff;
+    width:40%;
+    border-radius: 50px;
+}
+.girl-btn{
+    padding-left: 30px; 
+}
+/* footer */
+.footer{
+    background-color: black;
+    width:100%;
+    height:1200px;
+}
+.docmed{
+    padding-top:30px;
+    padding-left: 20px;
+}
+.last p{
+    color:white;
+    margin-top:20px;
+}
+.symbols{
+ color:grey;
+ font-size:30px;
+}
+.options{
+    color:grey;
+    line-height: 40px;
+}
+.sub{
+    color:white;
+}
+.useful{
+    color:white;
+}
+
+.address p{
+    color:white;
+    line-height: 40px;
+}
+.address span{
+    color:white;
+}
+.address h2{
+    color:white;
+}
+.colorlib{
+    color:grey;
+}
+.fa{
+    color:grey;
+}
+
+
+
+
+
+@media(min-width:768px){
+.hero-section{
+        width:100%;
+        height:600px;
+}
+.para{
+    width:60%;
+}
+.img-one{
+    margin-top:120px;
+    width:100%;
+    height:500px;
+}
+.img-two{
+    width:100%;
+    height:500px;
+    margin-top:318px;
+}
+.care h1{
+    font-size: 40px;
+    width:50%;
+}
+.care p{
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.points{
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.dept h1{
+    font-size: 45px;
+}
+.dept-one img{
+    width:100%;
+    height:290px;
+    margin-top:30px;
+}
+.dept{
+    width:100%;
+    height: 1830px;
+}
+.excel{
+    height:80px;
+    width:100%;
+    }
+    .excel li{
+         padding-left: 30px;
+    }
+    .eight-div {
+        margin-top:60px;
+    }
+    .eight-div img{
+        width:100%;
+        height:300px;
+    } 
+    .eight-div h3{
+            padding-top: 60px;
+    }
+    
+
+
+    /* nine section */
+
+   
+}  
+
+
+
+
+@media(min-width:992px){
+    .care h1{
+        font-size: 36px;
+        width:99%;
+    }
+    .care p{
+        line-height: 28px;
+        letter-spacing: 1px;
+    }
+    .points{
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+    .welcome{
+        margin-top: 195px;
+    }
+    .dept p{
+        font-size: 22px;
+    }
+    .dept{
+        height:1410px;
+}
+.excel li{
+    padding-left: 88px;
+}
+}
+
+    
+
 </body>
 </html>
